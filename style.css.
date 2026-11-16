@@ -1,0 +1,147 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background:
+    radial-gradient(circle at top, #243d72, transparent 55%),
+    #101526;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+.status {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px 22px;
+  background: #0b1020;
+  font-size: 13px;
+  letter-spacing: 1px;
+}
+
+header {
+  padding: 35px 25px 20px;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 36px;
+  margin: 0;
+  letter-spacing: 4px;
+}
+
+header p {
+  color: #9db8ff;
+}
+
+main {
+  width: min(900px, 92%);
+  margin: auto;
+}
+
+.device {
+  background: linear-gradient(135deg, #253c70, #14203b);
+  border: 1px solid #4768a5;
+  border-radius: 22px;
+  padding: 28px;
+  text-align: center;
+  box-shadow: 0 15px 40px #0006;
+}
+
+.android-icon {
+  font-size: 55px;
+}
+
+.device h2 {
+  margin-bottom: 8px;
+}
+
+#connection {
+  color: #b7c9ef;
+  font-size: 14px;
+}
+
+button {
+  cursor: pointer;
+  font-weight: bold;
+}
+
+#connect {
+  margin-top: 18px;
+  padding: 15px 25px;
+  border: 0;
+  border-radius: 12px;
+  background: #76a8ff;
+  color: #101526;
+}
+
+#connect:hover {
+  background: #a4c5ff;
+}
+
+.section-title {
+  margin-top: 32px;
+}
+
+.apps {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px;
+}
+
+.app {
+  min-height: 100px;
+  border: 1px solid #34476c;
+  border-radius: 16px;
+  background: #1a2742;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.app span {
+  font-size: 30px;
+}
+
+.app:hover {
+  background: #2b416a;
+  transform: translateY(-2px);
+}
+
+.panel {
+  margin-top: 25px;
+  padding: 22px;
+  background: #1a2237;
+  border: 1px solid #34476c;
+  border-radius: 18px;
+  min-height: 130px;
+}
+
+.panel p {
+  color: #bdc9df;
+  line-height: 1.6;
+}
+
+footer {
+  padding: 35px;
+  text-align: center;
+  color: #71809e;
+  font-size: 12px;
+  letter-spacing: 2px;
+}
+
+@media(max-width: 500px) {
+  header h1 {
+    font-size: 28px;
+  }
+
+  .apps {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
