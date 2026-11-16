@@ -1,0 +1,19 @@
+
+{
+  "name": "ANDROID X",
+  "short_name": "ANDROID X",
+  "description": "Cloud Android Gaming Platform",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "landscape",
+  "background_color": "#101526",
+  "theme_color": "#101526",
+  "icons": [
+    {
+      "src": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/72x72/1f916.png",
+      "sizes": "72x72",
+      "type": "image/png"
+    }
+  ]
+}
